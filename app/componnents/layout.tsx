@@ -1,6 +1,6 @@
 import { FC } from "hono/jsx";
 
-const layout: FC<{ children: any }> = ({children}) => {
+export const Layout: FC<{ children: any }> = ({children}) => {
     return (
         <div class="min-h-screen flex flex-col">
 
@@ -25,4 +25,4 @@ const layout: FC<{ children: any }> = ({children}) => {
     )
 }
 
-export default layout;
+export default Layout;

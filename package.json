@@ -9,8 +9,10 @@
   },
   "private": true,
   "dependencies": {
+    "@hono/zod-validator": "^0.7.5",
     "hono": "^4.10.7",
-    "honox": "^0.1.51"
+    "honox": "^0.1.51",
+    "zod": "^4.1.13"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20250214.0",

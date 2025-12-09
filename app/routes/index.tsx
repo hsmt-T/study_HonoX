@@ -1,5 +1,5 @@
 import { createRoute } from 'honox/factory'
-import Layout from '../componnents/Layaout'
+import { Layout } from '../componnents/layout'
 
 export default createRoute((c) => {
   return c.render(
