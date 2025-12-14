@@ -9,6 +9,8 @@ export const Layout: FC<{ children: any }> = ({children}) => {
         <nav class="max-w-4xl mx-auto flex gap-6">
             <a href="/" class="hover:underline">Home</a>
             <a href="/about" class="hover:underline">About</a>
+            <a href="/auth/signup" class="hover:underline">signup</a>
+            <a href="/auth/login" class="hover:underline">login</a>
         </nav>
         </header>
 

@@ -1,6 +1,7 @@
+"use client"
+
 import { useState } from "hono/jsx";
 import { loginSchema } from "../schema/auth";
-import type { ZodError } from "zod";
 import { Button } from "../componnents/ui/Button";
 import PasswordToggle from "../componnents/ui/PasswordToggle";
 
